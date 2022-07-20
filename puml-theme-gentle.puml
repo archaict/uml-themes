@@ -1,6 +1,5 @@
 @startuml
 
-!$THEME = "Blue"
 !define blue        #438dd5
 !define darkblue    #08427b
 !define ligthblue   #85bbf0
@@ -9,6 +8,13 @@
 skinparam Shadowing false
 skinparam BackgroundColor transparent
 skinparam ComponentStyle uml2
+
+skinparam dpi 300
+skinparam linetype ortho
+skinparam actorStyle awesome
+skinparam packageFontColor black
+skinparam packageStyle rectangle
+skinparam BackgroundColor transparent
 
 !procedure basicStyle()
     BackgroundColor darkblue
