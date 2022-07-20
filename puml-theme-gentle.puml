@@ -146,7 +146,7 @@ skinparam SequenceGroup {
     HeaderFontColor white
     HeaderFontStyle italic
     BackgroundColor darkblue
-
+    BorderThickness 2
     FontColor darkblue
     BorderColor darkblue
 }
