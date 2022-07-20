@@ -128,12 +128,36 @@ skinparam sequence {
   lifeLineBackgroundColor blue
 }
 
-skinparam boundary {
+skinparam Database {
+    BackgroundColor blue
+    BorderColor darkblue
 }
-
-skinparam control {
+skinparam Boundary {
+    BackgroundColor blue
+    BorderColor darkblue
 }
 
 skinparam entity {
+    BackgroundColor blue
+    BorderColor darkblue
 }
+
+skinparam SequenceGroup {
+    HeaderFontColor white
+    HeaderFontStyle italic
+    BackgroundColor darkblue
+
+    FontColor darkblue
+    BorderColor darkblue
+}
+
+skinparam SequenceDivider{
+    FontSize 12
+    FontStyle italic
+    FontColor white
+    BackgroundColor darkblue
+    BorderColor darkblue
+    BorderThickness 4
+}
+
 @enduml
