@@ -1,0 +1,117 @@
+@startuml
+
+!$THEME = "Blue"
+!define blue        #438dd5
+!define darkblue    #08427b
+!define ligthblue   #85bbf0
+!define navy        #1168bd
+
+skinparam Shadowing false
+skinparam BackgroundColor transparent
+skinparam ComponentStyle uml2
+
+!procedure basicStyle()
+    BackgroundColor darkblue
+    BorderColor darkblue
+!endprocedure
+
+!procedure basicAltStyle()
+    BackgroundColor darkblue
+    BorderColor darkblue
+!endprocedure
+
+!procedure arrowStyle()
+  arrowColor darkblue
+  arrowFontColor darkblue
+!endprocedure
+
+skinparam Default {
+    FontColor darkblue
+    FontSize 12
+    ' FontName "Iosevka SemiBold"
+    FontName "Aileron SemiBold"
+    TextAlignment center
+}
+
+' Use Case Diagrams
+skinparam Usecase{
+  FontColor #fff
+}
+
+' Class Diagrams
+
+skinparam circledCharacter {
+  radius 8
+  fontSize $FONTSIZE
+  fontName $FONTNAME
+}
+
+skinparam class {
+  basicStyle()
+  arrowStyle()
+
+  attributeFontColor darkblue
+  attributeFontSize 12
+  attributeIconSize 12
+}
+
+' Sequence Diagrams
+
+skinparam Actor {
+    basicStyle()
+}
+
+skinparam Control {
+    BorderColor darkblue
+    BackgroundColor blue
+}
+
+skinparam Participant {
+    basicStyle()
+    FontColor white
+}
+
+skinparam Collections {
+    basicStyle()
+    FontColor white
+}
+
+skinparam SequenceBox {
+    basicStyle()
+    FontColor white
+}
+
+skinparam Arrow {
+    Color darkblue
+}
+
+skinparam Title {
+    FontSize 20
+    FontColor darkblue
+}
+
+skinparam usecase {
+  basicStyle()
+  arrowStyle()
+}
+
+skinparam activity {
+  basicStyle()
+  arrowStyle()
+}
+
+skinparam sequence {
+  arrowStyle()
+  lifeLineBorderColor darkblue
+  lifeLineBackgroundColor blue
+}
+
+skinparam boundary {
+}
+
+skinparam control {
+}
+
+skinparam entity {
+}
+@enduml
