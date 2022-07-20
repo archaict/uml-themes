@@ -61,6 +61,22 @@ skinparam class {
   attributeIconSize 12
 }
 
+' Activity Diagram
+skinparam SwimLaneTitle {
+    FontSize 12
+    BackgroundColor darkblue
+    FontColor #fff
+}
+
+skinparam Swimlane {
+    BorderColor darkblue
+}
+
+skinparam Activity{
+    FontSize 10
+    FontColor #fff
+}
+
 ' Sequence Diagrams
 
 skinparam Actor {
