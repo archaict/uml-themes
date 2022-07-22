@@ -70,6 +70,7 @@ skinparam SwimLaneTitle {
 
 skinparam Swimlane {
     BorderColor darkblue
+    BorderThickness 1
 }
 
 skinparam Activity{
