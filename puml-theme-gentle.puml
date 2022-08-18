@@ -63,7 +63,6 @@ skinparam class {
 
 ' Activity Diagram
 
-skinparam ActivityBorderColor #fff
 
 skinparam SwimLaneTitle {
     FontSize 12
@@ -79,7 +78,10 @@ skinparam Swimlane {
 skinparam Activity{
     FontSize 10
     FontColor #fff
+    BorderColor #fff
+    BarColor darkblue
 }
+
 
 ' Sequence Diagrams
 
