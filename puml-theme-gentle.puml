@@ -62,6 +62,9 @@ skinparam class {
 }
 
 ' Activity Diagram
+
+skinparam ActivityBorderColor #fff
+
 skinparam SwimLaneTitle {
     FontSize 12
     BackgroundColor darkblue
