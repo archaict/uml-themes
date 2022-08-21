@@ -5,6 +5,13 @@
 !define ligthblue   #85bbf0
 !define navy        #1168bd
 
+<style>
+document {
+  BackgroundColor transparent
+  Margin 40
+}
+</style>
+
 skinparam Shadowing false
 skinparam BackgroundColor transparent
 skinparam ComponentStyle uml2
